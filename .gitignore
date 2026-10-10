@@ -1,0 +1,20 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ML artifacts: never commit these
+data/
+*.pt
+*.pth
+*.ckpt
+wandb/
+runs/
+
+# macOS
+.DS_Store
